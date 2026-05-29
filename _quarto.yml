@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
 
-website:
+website: "Nicolette (Niki) van der Poel"
   title: "Nicolette van der Poel"
   navbar:
     left:
