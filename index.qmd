@@ -1,7 +1,25 @@
+
 ---
-title: "nvanderpoel-cmd.github.io"
+title: "Nicolette van der Poel"
+about:
+  template: jolla
+   
+  links:
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app
+    - icon: github
+      text: Github
+      href: https://github.com
 ---
 
-This is a Quarto website.
+insert blurb
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Education
+
+- "University of California, Santa Barbara | Santa Barbara, CA"
+- "BA in Environmental Studies and Global Studies | Sept 2021 - June 2026"
+
+## Experience
+
+
