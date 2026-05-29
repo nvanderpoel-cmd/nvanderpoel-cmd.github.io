@@ -1,6 +1,28 @@
 ---
 title: "Study Abroad"
+about:
+  template: broadside
+  
 ---
+
+# Social-Ecological Sustainability (SES) in Chile
+## Villarrica, Chile
+
+### Group Research Project
+
+
+# Food, History, and Culture in Paris
+## Paris, France
+
+
+# Study Abroad in the French Riviera
+## Antibes, France
+
+# Marine Ecology and Sustainability
+## Palma de Mallorca, Spain
+
+# Spanish Language and Culture
+## Alicante, Spain
 
 
 
