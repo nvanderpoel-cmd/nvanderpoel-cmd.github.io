@@ -19,6 +19,7 @@ website:
       - text: Education
         menu: 
           - text: Study Abroad
+            href: study_abroad.qmd
           - text: Rowing
           - text: CV
       - Events
