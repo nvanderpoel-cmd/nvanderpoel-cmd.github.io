@@ -15,6 +15,7 @@ website:
       - text: Maps
         menu: 
           - text: Projects
+            href: projects.qmd
           - text: Certifications
       - text: Education
         menu: 
