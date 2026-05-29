@@ -9,6 +9,13 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - Resume
+      - Project Page
+      - Free for all
+      - Maps
+      - Education
+      - Events
+      - Contact
 
 format:
   html:
@@ -17,28 +24,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
----
-title: "Nicolette van der Poel"
-about:
-  template: jolla
-  image: 
-  links:
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app
-    - icon: github
-      text: Github
-      href: https://github.com
----
-
-insert blurb
-
-## Education
-
-- "University of California, Santa Barbara | Santa Barbara, CA"
-- "BA in Environmental Studies and Global Studies | Sept 2021 - June 2026"
-
-## Experience
-
-

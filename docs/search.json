@@ -9,8 +9,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "nvanderpoel-cmd.github.io",
+    "title": "Nicolette van der Poel",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "insert blurb"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Nicolette van der Poel",
+    "section": "Education",
+    "text": "Education\n\nUniversity of California, Santa Barbara | Santa Barbara, CA\nBA in Environmental Studies and Global Studies | Sept 2021 - June 2026"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Nicolette van der Poel",
+    "section": "Experience",
+    "text": "Experience"
   }
 ]
