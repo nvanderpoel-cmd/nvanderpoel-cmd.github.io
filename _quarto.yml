@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "nvanderpoel-cmd.github.io"
+  title: "Nicolette van der Poel"
   navbar:
     left:
       - href: index.qmd
