@@ -12,13 +12,15 @@ website:
       - Resume
       - Project Page
       - Free for all
-      - Maps
-        - Projects
-        - Certifications
-      - Education
-        - Study Abroad
-        - Rowing
-        - CV
+      - text: Maps
+        menu: 
+          - text: Projects
+          - text: Certifications
+      - text: Education
+        menu: 
+          - text: Study Abroad
+          - text: Rowing
+          - text: CV
       - Events
       - Contact
 
