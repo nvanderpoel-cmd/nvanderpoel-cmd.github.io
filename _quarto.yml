@@ -18,5 +18,27 @@ format:
     css: styles.css
     toc: true
 
+---
+title: "Nicolette van der Poel"
+about:
+  template: jolla
+  image: 
+  links:
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app
+    - icon: github
+      text: Github
+      href: https://github.com
+---
+
+insert blurb
+
+## Education
+
+University of California, Santa Barbara | Santa Barbara, CA
+BA in Environmental Studies and Global Studies | Sept 2021 - June 2026
+
+## Experience
 
 
