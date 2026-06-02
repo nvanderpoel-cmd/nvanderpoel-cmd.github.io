@@ -32,5 +32,6 @@ format:
     theme:
       - cosmo
       - brand
+      - styles.scss
     css: styles.css
     toc: true
