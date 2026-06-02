@@ -25,7 +25,6 @@ $khaki4: #8B864E;
 }
 
 /* hamburger + search icon */
-.navbar .navbar-toggler,
 .navbar .aa-SearchBox-button {
   color: $khaki !important;
   border-color: $khaki !important;
@@ -36,10 +35,12 @@ h1, h2, h3 {
   color: $darkbrown;
 }
 
+
 body {
   color: $darkbrown;
   background-color: $khaki;
 }
+
 
 a {
   color: $dark_olive;

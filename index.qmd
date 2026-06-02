@@ -6,6 +6,7 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
+      color: #713A1C
       href: https://www.linkedin.com/in/nicolette-van-der-poel-72701036a/ 
     - icon: github
       text: Github
