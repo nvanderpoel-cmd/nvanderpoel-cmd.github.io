@@ -7,7 +7,7 @@ $darkbrown: #713A1C;
 
 // use vars in CSS rules (we'll learn more about how to write CSS soon!) 
 h1 {
-  color: $darkolive;
+  color: $dark_olive;
 }
 
 .button-styling {
