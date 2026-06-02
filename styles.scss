@@ -6,6 +6,7 @@ $secondary: #BDB76B;
 $body-color: #713A1C;
 $link-color: #8B864E;
 $body-bg: #CDC673;
+$font-family-base: "Times New Roman", Times, serif;
 
 
 // define Sass vars 
@@ -39,6 +40,7 @@ h1, h2, h3 {
 body {
   color: $darkbrown;
   background-color: $khaki;
+  font-family: "Times New Roman", Times, serif;
 }
 
 

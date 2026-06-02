@@ -12,20 +12,17 @@ website:
         text: About
       - text: Resume & CV
         href: CV.qmd
-      - text: Project Page
+      - text: Project
+        href: 
       - text: Free for all
       - text: Maps
-        menu: 
-          - text: Projects
-            href: projects.qmd
-          - text: Certifications
+        href: maps.qmd
       - text: Education
         menu: 
           - text: Study Abroad
             href: study_abroad.qmd
           - text: Rowing
             href: rowing.qmd
-          - text: CV
       - text: Events
       - text: Contact
 
