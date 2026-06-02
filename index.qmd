@@ -2,7 +2,7 @@
 title: "Nicolette (Niki) van der Poel"
 about:
   template: jolla
-    
+  image: headshot_front1.jpg  
   links:
     - icon: linkedin
       text: LinkedIn

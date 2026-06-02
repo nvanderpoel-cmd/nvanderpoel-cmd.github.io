@@ -16,6 +16,20 @@ $darkbrown: #713A1C;
 $khaki: #F0E68C;
 $khaki4: #8B864E;
 
+.navbar-brand {
+  color: $khaki !important;
+}
+
+.navbar-nav .nav-link {
+  color: $khaki !important;
+}
+
+/* hamburger + search icon */
+.navbar .navbar-toggler,
+.navbar .aa-SearchBox-button {
+  color: $khaki !important;
+  border-color: $khaki !important;
+}
 
 // use vars in CSS rules (we'll learn more about how to write CSS soon!) 
 h1, h2, h3 {
