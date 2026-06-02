@@ -1,10 +1,20 @@
 /*-- scss:rules --*/
 
+/*-- scss:defaults --*/
+$primary: #8B864E;
+$secondary: #BDB76B;
+$body-color: #713A1C;
+$link-color: #8B864E;
+$body-bg: #CDC673;
+
+
 // define Sass vars 
 $dark_olive: #B3B854;
 $khakisp: #BDB76B;
+$khaki3: #CDC673;
 $darkbrown: #713A1C;
 $khaki: #F0E68C;
+$khaki4: #8B864E;
 
 
 // use vars in CSS rules (we'll learn more about how to write CSS soon!) 
@@ -14,6 +24,11 @@ h1, h2, h3 {
 
 body {
   color: $darkbrown;
+  background-color: $khaki;
+}
+
+a {
+  color: $dark_olive;
 }
 
 .btn {
