@@ -6,11 +6,11 @@ $khaki: #F0E68C;
 
 
 // use vars in CSS rules (we'll learn more about how to write CSS soon!) 
-h1 {
+h1, h2, h3 {
   color: $dark_olive;
 }
 
-.button-styling {
+.btn {
   background: $khakisp;
   color: $dark_olive; 
   border-color: $darkbrown;

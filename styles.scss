@@ -1,3 +1,5 @@
+/*-- scss:rules --*/
+
 // define Sass vars 
 $dark_olive: #B3B854;
 $khakisp: #BDB76B;
@@ -6,11 +8,15 @@ $khaki: #F0E68C;
 
 
 // use vars in CSS rules (we'll learn more about how to write CSS soon!) 
-h1 {
-  color: $dark_olive;
+h1, h2, h3 {
+  color: $darkbrown;
 }
 
-.button-styling {
+body {
+  color: $darkbrown;
+}
+
+.btn {
   background: $khakisp;
   color: $dark_olive; 
   border-color: $darkbrown;
