@@ -8,10 +8,11 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - Resume
-      - Project Page
-      - Free for all
+      - href: about.qmd
+        text: About
+      - text: Resume & CV
+      - text: Project Page
+      - text: Free for all
       - text: Maps
         menu: 
           - text: Projects
@@ -24,8 +25,8 @@ website:
           - text: Rowing
             href: rowing.qmd
           - text: CV
-      - Events
-      - Contact
+      - text: Events
+      - text: Contact
 
 format:
   html:
