@@ -1,1 +1,34 @@
 /* css styles */
+// define Sass vars 
+$dark_olive: #B3B854;
+$khakisp: #BDB76B;
+$darkbrown: #713A1C;
+
+
+// use vars in CSS rules (we'll learn more about how to write CSS soon!) 
+h1 {
+  color: $darkolive;
+}
+
+.button-styling {
+  background: $khakisp;
+  color: $dark_olive; 
+  border-color: $darkbrown;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
