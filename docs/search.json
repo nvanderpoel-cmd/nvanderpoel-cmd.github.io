@@ -1,38 +1,24 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "rowing.html",
+    "href": "rowing.html",
+    "title": "Rowing",
     "section": "",
-    "text": "About this site"
+    "text": "Any student-athlete can tell you the amount of time, energy, and dedication it takes to be part of a team and also a full-time student. Rowing includes many early mornings and tests to your physical and mental strength. However, it also nurtures ambition, grit, passion, power, and a strong value of teamwork. No win can happen without every single person in a boat."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nicolette (Niki) van der Poel",
-    "section": "",
-    "text": "As a recent UCSB graduate from a double major in Environmental Studies and Global Studies, I have spent a great deal of my education focused on both human and environmental interests. I am interested in blending the two so that nature and humans can co-exist. GIS, Statistics, and Environmentally Protected Areas give unique opportunities to explore this intersection whether through sustainable development, natural disaster mitigation, planning for sea level rise, or collaboratively managing environmentally protected areas."
+    "objectID": "rowing.html#ucsb-rowing",
+    "href": "rowing.html#ucsb-rowing",
+    "title": "Rowing",
+    "section": "UCSB Rowing",
+    "text": "UCSB Rowing\nUnder the guidance of Coach Brooke Downes, I rowed with some amazing women for my two years on the team. My time here included a rigorous 6-day practice schedule but paid off with many medals and awards! This team is truly special and contains some very powerful women with multifaceted talents and interests. Each member is not just high-achieving in their sport, but also in academics, community engagement, and extracurriculars."
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Nicolette (Niki) van der Poel",
-    "section": "Education",
-    "text": "Education\nUniversity of California, Santa Barbara | Santa Barbara, CA\nBA in Environmental Studies and Global Studies | Sept 2021 - June 2026"
-  },
-  {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
-    "title": "Nicolette (Niki) van der Poel",
-    "section": "Skills",
-    "text": "Skills\nIntroductory Geographic Information Systems (GIS), Microsoft Excel, Introductory R\n\nLanguages\nSpanish | Limited Working Proficiency | Intermediate Literary Proficiency\nFrench | Elementary Proficiency\nEnglish | Native"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Effects of Landfills on the Southern California Landscape\nView here"
+    "objectID": "rowing.html#berkeley-high-crew",
+    "href": "rowing.html#berkeley-high-crew",
+    "title": "Rowing",
+    "section": "Berkeley High Crew",
+    "text": "Berkeley High Crew\nBerkeley High Crew introduced me to rowing when I needed it most. Rowing showed me the sheer strength of ones mind and that the human body, and ones-self, is more capable than anyone realizes. In my opinion, the same is true for other aspects of life where some accomplishments may seem impossible, but in reality require persistence, imagination and determination."
   },
   {
     "objectID": "study_abroad.html",
@@ -77,24 +63,38 @@
     "text": "Alicante, Spain | Summer 2018, 4 wks\nSummer of 2018, the Spanish Language and Culture program was my first ever study abroad program in high school. It was Spanish-language immersion, which involves speaking in Spanish 24/7. I saw huge improvements in my Spanish after just four weeks! Staying in a homestay and away from home for the first time taught me adaptability and how much the world has to offer, in addition with connecting me with my Grandma’s Spanish roots. This sparked a major interest in all things international which would eventually lead me to complete five study abroad programs, explore French language and culture, and complete a Global Studies major at UCSB."
   },
   {
-    "objectID": "rowing.html",
-    "href": "rowing.html",
-    "title": "Rowing",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nicolette (Niki) van der Poel",
     "section": "",
-    "text": "Any student-athlete can tell you the amount of time, energy, and dedication it takes to be part of a team and also a full-time student. Rowing includes many early mornings and tests to your physical and mental strength. However, it also nurtures ambition, grit, passion, power, and a strong value of teamwork. No win can happen without every single person in a boat."
+    "text": "As a recent UCSB graduate from a double major in Environmental Studies and Global Studies, I have spent a great deal of my education focused on both human and environmental interests. I am interested in blending the two so that nature and humans can co-exist. GIS, Statistics, and Environmentally Protected Areas give unique opportunities to explore this intersection whether through sustainable development, natural disaster mitigation, planning for sea level rise, or collaboratively managing environmentally protected areas."
   },
   {
-    "objectID": "rowing.html#ucsb-rowing",
-    "href": "rowing.html#ucsb-rowing",
-    "title": "Rowing",
-    "section": "UCSB Rowing",
-    "text": "UCSB Rowing\nUnder the guidance of Coach Brooke Downes, I rowed with some amazing women for my two years on the team. My time here included a rigorous 6-day practice schedule but paid off with many medals and awards! This team is truly special and contains some very powerful women with multifaceted talents and interests. Each member is not just high-achieving in their sport, but also in academics, community engagement, and extracurriculars."
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Nicolette (Niki) van der Poel",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Santa Barbara | Santa Barbara, CA\nBA in Environmental Studies and Global Studies | Sept 2021 - June 2026"
   },
   {
-    "objectID": "rowing.html#berkeley-high-crew",
-    "href": "rowing.html#berkeley-high-crew",
-    "title": "Rowing",
-    "section": "Berkeley High Crew",
-    "text": "Berkeley High Crew\nBerkeley High Crew introduced me to rowing when I needed it most. Rowing showed me the sheer strength of ones mind and that the human body, and ones-self, is more capable than anyone realizes. In my opinion, the same is true for other aspects of life where some accomplishments may seem impossible, but in reality require persistence, imagination and determination."
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Nicolette (Niki) van der Poel",
+    "section": "Skills",
+    "text": "Skills\nIntroductory Geographic Information Systems (GIS), Microsoft Excel, Introductory R\n\nLanguages\nSpanish | Limited Working Proficiency | Intermediate Literary Proficiency\nFrench | Elementary Proficiency\nEnglish | Native"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Origin\nI credit a lot of my interest in helping the Environment to growing up in Berkeley, California. Climate Change was a constant topic of conversation and protests were the norm. It was attending so many protests that ingraioned the value of grassroots, protests, and on the ground action in me. While not all protests are successful, when done right with genuine passion, they can achieve great goals.\nFurthermore, I was always encouraged to be open to ideas different than my own, on all sides of the political spectrum. My great-grandfather was a Supreme Court Justice who valued different perspectives. My desire to see all perspectives has also inspired an interest in protected areas, which typically involve various stakeholders with different viewpoints, from fisherman to environmentalists.\n\n\nMulticultural\nWhile my interest in travel and the globe is largely self-guided, my family is largely multicultural. My father is Dutch and my mother is half-hispanic with roots tracing to the Basques of Spain. Additionally, my father grew up in Japan, thus I grew up with some Japanese influences and two older sisters who were half-Japanese. Therefore, I was always surrounded by and appreciative of other cultures."
+  },
+  {
+    "objectID": "maps.html",
+    "href": "maps.html",
+    "title": "Maps",
+    "section": "",
+    "text": "Effects of Landfills on the Southern California Landscape\nView here\n\n\nCertifications"
   }
 ]

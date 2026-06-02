@@ -12,8 +12,8 @@ website:
         text: About
       - text: Resume & CV
         href: CV.qmd
-      - text: Project
-        href: 
+      - text: Projects
+        href: projects.qmd
       - text: Free for all
       - text: Maps
         href: maps.qmd
