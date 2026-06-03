@@ -2,6 +2,7 @@
 title: "Study Abroad"
 about:
   template: broadside
+  image: IMG_4199.jpeg
   
 ---
 
