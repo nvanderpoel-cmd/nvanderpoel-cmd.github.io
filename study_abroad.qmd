@@ -4,6 +4,7 @@ about:
   template: broadside
   image: IMG_4199.jpeg
   
+  
 ---
 
 # Social-Ecological Sustainability (SES) in Chile
