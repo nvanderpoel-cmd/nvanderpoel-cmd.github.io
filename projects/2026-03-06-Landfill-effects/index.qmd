@@ -1,0 +1,38 @@
+---
+title: "Effects of Landfills on the Southern California Landscape"
+description: "Spatial analysis and comparison of demographics, soil, and groundwater between the Chiquita Canyon Landfill and Calabasas Landfill"
+author:
+  - name: Nicolette van der Poel
+    url: https://nvanderpoel-cmd.github.io/
+    orcid: 0000-0002-5300-3075
+    affiliation: BA in Environmental Studies and Global Studies
+    affiliation-url: https://es.ucsb.edu/
+date: 10-24-2022
+categories: [Quarto, R, MEDS]
+citation:
+  url: https://nvanderpoel-cmd.github.io/
+image: projects/2026-03-06-Landfill-effects/landfill_photo.jpg
+draft: false
+---
+
+Here is where I will start writing my actual blog post content...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
