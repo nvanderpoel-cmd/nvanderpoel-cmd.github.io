@@ -5,6 +5,7 @@ title: "Resume & CV"
 ---
 # Summary Statement
 
+Undergraduate researcher and student with experience conducting ethnographic research, assisting ecological research, and speaking multiple languages. Seeks to use GIS, surveys, and data science to help underserved communities collaborate with, benefit from, and co-exist with protected areas. 
 
 # Education
 
@@ -15,41 +16,89 @@ BA in Environmental Studies and Global Studies | University of California, Santa
 ## Restoration Ecology Intern
 ### Vegetation Ecological Group (VEG) Laboratory, UCSB | April 2026 - Present 
 
+Aid UCSB researchers in implementing a field restoration project in the Los Padres National Forest and conduct flammability testing of plant species in the laboratory at UCSB. 
 
+- Install erosion control measures for field plots, collect native seeds in the national forest, install native seeds, conduct various vegetation surveys, and collect plant biomass.
+- Conduct controlled burning of plant material, measure attributes of plant flammability, and propagate native plant species.
 
 ## UCSB EAP Global Intern
 ### University of California Education Abroad Program (UCEAP) | March 2026 - June 2026
 
 Interned with UCSB EAP to help other students with the process of studying abroad, reflect on experiences while abroad, and promote resources for around 4 hours per week in addition to other 3 hour events.
 
+- Volunteered at events, helping with set-up, clean-up, and speaking to students
+- Tabled for two hours, answering students’ questions about study abroad and UCSB EAP resources
+- Conducted a project promoting the Orfalea Center, an undergraduate independent research abroad option. 
 
 ## Undergraduate Researcher
 ### Pontificia University of Chile, Villarrica, UCEAP | September 2024 - December 2024
 
 Collaborated with 6 other students to create a research paper on human-wildlife co-existence in the Araucania Region in Southern-Central Chile for 10 hours per week.
 
-
+- Solved lack of technology by creating maps of local Chilean farms using google earth, procreate, and farm tours.
+- Interviewed and conducted surveys of local Chilean farmers alongside a professor.
+- Visualized and analyzed data through graphs and tables on Microsoft Excel.
 
 ## Undergraduate Research Fellow
 ### Orfalea Center, UCSB | September 2023 - June 2024
 
 Prepared an ethnographic research proposal to complete as a Study Abroad student in Chile for 3-10 hours per week. The Orfalea Center prepares students to complete research abroad primarily in the Global South and historically underrepresented areas
 
-
+- Researched and wrote on contemporary Chilean and Indigenous history and culture. 
+- Created methods such as interviews and surveys to complete while abroad.
+- Assisted global studies graduate students and attending conferences when appropriate.
 
 ## Ecological Laboratory Intern
 ### Vegetation Ecological Group (VEG) Laboratory | January 2022 - March 2022
 
+Assisted a Bren graduate sutden in research project on wild-fire ecology for 10 weeks, 3 hourse per week.
+
+- Conducted fieldwork by recording measurements and collecting native shrub samples
+- Dried and weighed native plants
+- Entered and organized data in Microsoft Excel
+
 ## Undergraduate Abroad
 ### UCEAP Food, History, and Culture in Paris
 
-# Research
+Studied Abroad in Paris, France learning the French language, history, culture and food for approximately 4 months.
+
+- Communicated in French with homestay and class.
+- Studied French history, philosophy and culture.
+- Adapted to Parisian culture and lifestyles.
+
+# Projects
+
+## Effects of Landfills on the Southern California Landscape
+### Environmental Studies Department | University of California, Santa Barbara | Santa Barbara, California
+
+- Collaborated with 4 other students
+- Created maps visualizing demographics surrounding Los Angeles Landfills in ArcGIS pro
+- Conducted a Generalized Linear Regression Analysis
+
+## Human Wildlife Co-existence: Small Scale Farmer Perspectives on Techniques for Mitigating Predation in Southern Chile
+### Pontificia Universidad Católica de Chile | Villarrica, Araucania Region, Chile
+
+- Collaborated with 6 other students
+- Created maps visualizing predation on farms
+- Quantified data in google sheets
+- Visualized data in Microsoft Excel
 
 # Affiliations
 
+- Orfalea Center
+- UCSB Rowing
+
 # Skills
 
+- Data Science: Beginner level GIS, Python, R, and Microsoft Excel.
+- Statistics: Introductory Statistics, 3 university level mathematics classes.
+- Environmental Studies: Degree and research in Environmental Studies.
+
 # Languages
+
+- Spanish: Limited working proficiency, intermediate literary proficiency
+- French: Elementary proficiency
+- English: Native
 
 
 
