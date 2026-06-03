@@ -13,7 +13,7 @@ website:
       - text: Resume & CV
         href: CV.qmd
       - text: Projects
-        href: projects.qmd
+        href: projects/projects.qmd
       - text: Maps
         href: maps.qmd
       - text: Education
