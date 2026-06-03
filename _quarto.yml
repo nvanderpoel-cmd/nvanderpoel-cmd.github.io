@@ -14,8 +14,6 @@ website:
         href: CV.qmd
       - text: Projects
         href: projects/projects.qmd
-      - text: Maps
-        href: maps.qmd
       - text: Education
         menu: 
           - text: Study Abroad
