@@ -18,18 +18,21 @@ draft: false
 ```{r}
 #| echo: false
 #| message: false
+#| label: set up
 
 library(tidyverse)
 library(readxl)
 library(janitor)
+library(here)
 
 # reading in data
-predation <- read_xlsx("projects/2024-fall-coexistence/Predator Frequency.xlsx")
-sightings <- read_xlsx("projects/2024-fall-coexistence/sightings.xlsx")
+predation <- read_xlsx(here("ENVS-193DS/GIT/nvanderpoel-cmd.github.io/projects/2024-fall-coexistence/Predator Frequency.xlsx"))
+sightings <- read_xlsx(here("ENVS-193DS/GIT/nvanderpoel-cmd.github.io/projects/2024-fall-coexistence/sightings.xlsx"))
 ```
 
 ```{r}
 #| echo: false
+#| label: storing colors
 #storing colors
 darkbrown <- "#713A1C"
 dark_olive1 <- "#3A520C"
@@ -39,6 +42,7 @@ khakisp <- "#BDB76B"
 
 ```{r}
 #| echo: false
+#| label: cleaning_predation
 
 #cleaning data
 predation_clean <- predation |> 
@@ -62,6 +66,7 @@ predation_clean <- predation |>
 
 ```{r}
 #| echo: false
+#| label: cleaning_sightings
 
 #cleaning data
 sightings_clean <- sightings |> 
@@ -82,6 +87,7 @@ sightings_clean <- sightings |>
 
 
 ```{r}
+#| label: predation visualization
 #making bar graph for predation graph
 
 #base layer: ggplot
@@ -97,6 +103,7 @@ ggplot(data = predation_clean,
 ```
 
 ```{r}
+#| label: Predator Sightings Visualization
 # making bar graph for sightings graph
 
 #base layer: ggplot
