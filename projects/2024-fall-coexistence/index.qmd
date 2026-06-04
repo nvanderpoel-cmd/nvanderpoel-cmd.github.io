@@ -15,9 +15,100 @@ image: IMG_4199 copy.jpeg
 draft: false
 ---
 
+```{r}
+#| echo: false
+#| message: false
+
+library(tidyverse)
+library(readxl)
+library(janitor)
+
+# reading in data
+predation <- read_xlsx("projects/2024-fall-coexistence/Predator Frequency.xlsx")
+sightings <- read_xlsx("projects/2024-fall-coexistence/sightings.xlsx")
+```
+
+```{r}
+#| echo: false
+#storing colors
+darkbrown <- "#713A1C"
+dark_olive1 <- "#3A520C"
+khakisp <- "#BDB76B"
+
+```
+
+```{r}
+#| echo: false
+
+#cleaning data
+predation_clean <- predation |> 
+  # cleaning names
+  clean_names() |> 
+  # keeping relevant rows
+  select(predator, farmers_who_reported_attacks) |>
+  # dropping null values
+  drop_na() |> 
+  #reordering species names
+  mutate(predator = as_factor(predator),
+         predator = fct_relevel(predator,
+                                    "Domestic Dog",
+                                    "Peuco",
+                                    "Vison",
+                                    "Güiña",
+                                    "Fox",
+                                    "Puma")) 
+
+```
+
+```{r}
+#| echo: false
+
+#cleaning data
+sightings_clean <- sightings |> 
+  clean_names() |> 
+  select(predators, farmers_who_reported_sightings) |> 
+  drop_na() |> 
+  mutate(predators = as_factor(predators),
+         predators = fct_relevel(predators,
+                                    "Domestic Dog",
+                                    "Peuco",
+                                    "Vison",
+                                    "Güiña",
+                                    "Fox",
+                                    "Traro",
+                                    "Puma")) 
+
+```
 
 
+```{r}
+#making bar graph for predation graph
 
+#base layer: ggplot
+ggplot(data = predation_clean,
+       mapping = aes(x = predator,
+                     y = farmers_who_reported_attacks)) +
+  #adding geometry: bar graph
+  geom_bar(stat = "identity") +
+  theme_classic() +
+  labs(x = "Predator",
+       y = "Farmers Who Reported Predation",
+       title = "Predation events in Small-scale Farms in the Araucania Region of Chile")
+```
 
+```{r}
+# making bar graph for sightings graph
+
+#base layer: ggplot
+ggplot(data = sightings_clean,
+       mapping = aes(x = predators,
+                     y = farmers_who_reported_sightings)) +
+  #adding geometry: bar graph
+  geom_bar(stat = "identity") +
+  theme_classic() +
+  labs(x = "Predator",
+       y = "Farmers Who Reported Predators on Property",
+       title = "Predator Sightings in Small-scale Farms in the Araucania Region of Chile")
+```
 
 
