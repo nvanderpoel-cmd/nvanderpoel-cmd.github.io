@@ -27,4 +27,14 @@ While my interest in travel and the globe is mainly self-guided, my family is la
 
 I am a big appreciator of food and the arts. I will try any food at least once and consider it a great way to build community, peer into another culture, or connect with the natural world. I also love to create art, mainly clothing. I sew many of my own clothes including my prom dress, and have volunteered at zero-waste inspired sew-repair events. Aside from fashion, there is also a lot to be learned from art history, street-art, and architecture.
 
-![](IMG_4263.jpeg)
+::: {.columns}
+
+::: {.column width="50%"}
+
+![](IMG_4879.jpeg){style="width: 350px; height: 350px; object-fit: cover;"}
+:::
+
+::: {.column width="50%"}
+![](IMG_4263.jpeg){style="width: 350px; height: 350px; object-fit: cover;"}
+:::
+
