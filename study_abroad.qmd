@@ -44,7 +44,60 @@ This three week summer program marked my second high school study abroad program
 
 Summer of 2018, the Spanish Language and Culture program was my first ever study abroad program in high school. It was Spanish-language immersion, which involves speaking in Spanish 24/7. I saw huge improvements in my Spanish after just four weeks! Staying in a homestay and away from home for the first time taught me adaptability and how much the world has to offer, in addition with connecting me with my Grandma's Spanish roots. This sparked a major interest in all things international which would eventually lead me to complete five study abroad programs, explore French language and culture, and complete a Global Studies major at UCSB. 
 
+```{r}
+library(tidyverse)
+library(leaflet)
+library(leaflet.extras)
+library(readxl)
 
+#reading in coordinates
+travel <- read_xlsx("Study Abroad Locations.xlsx")
+```
+
+```{r}
+gen_icon <- awesomeIcons(
+  icon = 'map-marker-alt', 
+  iconColor = 'white',
+  markerColor = "darkgreen",
+  library = 'fa'
+)
+```
+
+
+```{r}
+
+```
+
+```{r}
+# initialize map ----
+site_map <- leaflet() %>% 
+  
+  # add base map tiles (use `addTiles()` for Google maps tiles, OR `addProviderTiles()` for 3rd party base maps: https://leaflet-extras.github.io/leaflet-providers/preview/) ----
+  addProviderTiles(providers$Esri.WorldImagery, group = "ESRI World Imagery") %>% 
+  addProviderTiles(providers$Esri.OceanBasemap, group = "ESRI Oceans") %>% 
+  
+  # add mini map ----
+  addMiniMap(toggleDisplay = TRUE, minimized = TRUE) %>% 
+  
+  
+  # add MPA markers ----
+  addAwesomeMarkers(data = travel, group = "Program",
+             icon = gen_icon,
+             lng = ~lon, lat = ~lat,
+             popup = paste("Program:", travel$Program, "<br>",
+                           "Coordinates (lat/long):", travel$lat, ",", travel$lon)) %>%
+
+  # add layers control (toggle base map tiles & markers based on group IDs) ----
+  addLayersControl(
+    baseGroups = c("ESRI World Imagery", "ESRI Oceans"),
+    overlayGroups = c("Program")) %>% 
+  
+  # add reset map button ----
+  leaflet.extras::addResetMapButton()
+
+# print map ----
+site_map
+```
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Human-Wildlife Coexistence: Small Scale Farmer Perspectives on Techniques for Mitigating Predation in Southern Chile"
-description: "Spatial analysis and comparison of demographics, soil, and groundwater between the Chiquita Canyon Landfill and Calabasas Landfill"
+description: "Research on small-scale farmers in the Araucania Region of Chile, detailing perspectives and techniques used for coexistence with predators and wildlife"
 author:
   - name: Nicolette van der Poel
     url: https://nvanderpoel-cmd.github.io/
@@ -11,6 +11,13 @@ date: 12-10-2024
 categories: [Social-Ecological Sustainability, Ethnographic Research, Interviews]
 citation:
   url: https://nvanderpoel-cmd.github.io/
-image: landfill_photo.jpg
+image: IMG_4199 copy.jpeg
 draft: false
 ---
+
+
+
+
+
+
+
