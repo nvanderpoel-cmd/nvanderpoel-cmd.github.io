@@ -3,6 +3,7 @@ title: "Study Abroad"
 format:
   html:
     lightbox: true
+    toc: false
 title-block-banner: true
 ---
 
@@ -113,7 +114,7 @@ Fall of 2022 I studied abroad in Paris, France through the UCEAP Food, History, 
 
 ![](IMG_5606.jpeg){style="width: 350px; height: 350px; object-fit: cover;"}
 :::
-:::
+
 # Study Abroad in the French Riviera
 ## Antibes, France | Summer 2022, 3 wks
 
