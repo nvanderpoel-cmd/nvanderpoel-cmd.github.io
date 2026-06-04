@@ -15,6 +15,12 @@ image: IMG_4199 copy.jpeg
 draft: false
 ---
 
+Part of the UCEAP Social-Ecological Sustainability Program involved a group project with a group of 7 students. The group conducted research via interviews, maps and farm tours, and card sorts to receive insight into how local farmers co-existed with wildlife? What techniques did they use to prevent their livestock from being killed by predators? What predators did they see the most? Where? What were the most efficient alternatives to killing predators and wildlife?
+
+Part of the results detailed which predators had killed livestock on the farmers properties, i.e. predation events, and which predators had simply been spotted on the farmers' properties and thus posed risk of predation, i.e. sightings. The bar graphs below visualize which predators had attacked or had been seen on farmers properties.
+
+# Figure 1: Predation Events
+
 ```{r}
 #| echo: false
 #| message: false
@@ -122,6 +128,10 @@ ggplot(data = predation_clean,
                                   size = 20), # bigger title
         legend.position = "none") # getting rid of legend
 ```
+**Figure 1: Predation Events were frequently caused by stray dogs, peucos (hawks), and vison (introduced mink).** Data collected in the Araucania Region of Chile as part of UCEAP program (Pontificia Universidad Católica de Chile, 2024). Bars represent amount of farms that had reported attacks by a specific predator on the property. Stray dogs (domestic dog), and Peucos (hawks), and Vison (mink) were the most commonly reported predators that attacked livestock followed by Güiña (wild cat), fox, and puma. Each category represents a different predator. 
+
+
+# Figure 2: Predator Sightings
 
 ```{r}
 #| label: Predator Sightings Visualization
@@ -156,5 +166,5 @@ ggplot(data = sightings_clean,
                                   size = 20), # bigger title
         legend.position = "none") # getting rid of legend
 ```
-
+**Figure 2: Stray dogs and Peucos (hawks), were the most frequently spotted predators on farmers' properties.** Data collected in the Araucania Region of Chile as part of UCEAP program (Pontificia Universidad Católica de Chile, 2024). Bars represent amount of farms that had spotted the specific predator on the property. Stray dogs (domestic dog), and Peucos (hawks), were the most commonly spotted predators on farmers properties followed by Vison (mink), Güiña (wild cat), fox, traro and puma. Each category represents a different predator. 
 

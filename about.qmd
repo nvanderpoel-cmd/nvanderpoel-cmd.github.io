@@ -4,12 +4,20 @@ title: "About"
 
 ---
 # Origin
+::: {.columns}
+
+::: {.column width="50%"}
 
 I credit the majority of my interest in helping the Environment to growing up in Berkeley, California. Climate Change was a constant topic of conversation and protests were the norm. It was attending so many protests that instilled in me the value of grassroots, protests, and on the ground action. While not all protests are successful, when done right with genuine passion, they can achieve great goals.
 
 Furthermore, I was always encouraged to be open to ideas different than my own, on all sides of the political spectrum. My great-grandfather was a Supreme Court Justice who valued different perspectives. My desire to see all perspectives has also inspired an interest in protected areas, which typically involve various stakeholders with differing viewpoints, from fisherman to environmentalists.
+:::
+
+::: {.column width="50%"}
 
 ![](IMG_0558.JPG) 
+
+:::
 
 # Multicultural
 
