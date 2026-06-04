@@ -15,9 +15,13 @@ h1, h2, h3 {
   color: $dark_olive; 
   border-color: $darkbrown;
 }
+.quarto-title-banner h1, h2, h3{
+  color: $khaki;
+}
 
-
-
+.quarto-title-banner h1{
+  color: #F0E68C;
+}
 
 
 
