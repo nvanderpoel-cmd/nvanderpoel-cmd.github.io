@@ -26,8 +26,8 @@ library(janitor)
 library(here)
 
 # reading in data
-predation <- read_xlsx(here("ENVS-193DS/GIT/nvanderpoel-cmd.github.io/projects/2024-fall-coexistence/Predator Frequency.xlsx"))
-sightings <- read_xlsx(here("ENVS-193DS/GIT/nvanderpoel-cmd.github.io/projects/2024-fall-coexistence/sightings.xlsx"))
+predation <- read_xlsx(here("projects/2024-fall-coexistence/predator_frequency.xlsx"))
+sightings <- read_xlsx(here("projects/2024-fall-coexistence/sightings.xlsx"))
 ```
 
 ```{r}
@@ -37,6 +37,8 @@ sightings <- read_xlsx(here("ENVS-193DS/GIT/nvanderpoel-cmd.github.io/projects/2
 darkbrown <- "#713A1C"
 dark_olive1 <- "#3A520C"
 khakisp <- "#BDB76B"
+khaki3 <- "#CDC673"
+khaki <- "#F0E68C"
 
 ```
 
@@ -95,11 +97,30 @@ ggplot(data = predation_clean,
        mapping = aes(x = predator,
                      y = farmers_who_reported_attacks)) +
   #adding geometry: bar graph
-  geom_bar(stat = "identity") +
+  #customizing color to match website as darkbrown
+  geom_bar(stat = "identity", fill = darkbrown) +
+  # changing theme from default
   theme_classic() +
+  # Changing axes labels
   labs(x = "Predator",
        y = "Farmers Who Reported Predation",
-       title = "Predation events in Small-scale Farms in the Araucania Region of Chile")
+       # wrapping title
+       title = str_wrap("Predation events in Small-scale Farms in the Araucania Region of Chile",
+                        #controlling where line break happens
+                        width = 50)) +
+  #customizing colors to match website
+  theme(plot.background = element_rect(fill = khaki3),
+        panel.background = element_rect(fill = khaki),
+        axis.title = element_text(family = "serif", # axis title serif
+                                  color = darkbrown), # axis title darkbrown
+        axis.text = element_text(family = "serif", # axis font serif
+                                  color = darkbrown), # axis text color brown
+        axis.line = element_line(color = darkbrown), # axis line brown
+        plot.title = element_text(hjust = 0.5, # center title
+                                  family = "serif", # serif font
+                                  color = darkbrown, # changing color
+                                  size = 20), # bigger title
+        legend.position = "none") # getting rid of legend
 ```
 
 ```{r}
@@ -111,11 +132,29 @@ ggplot(data = sightings_clean,
        mapping = aes(x = predators,
                      y = farmers_who_reported_sightings)) +
   #adding geometry: bar graph
-  geom_bar(stat = "identity") +
+  #changing bar color to match website
+  geom_bar(stat = "identity", fill = darkbrown) +
+  #changing theme from default
   theme_classic() +
   labs(x = "Predator",
        y = "Farmers Who Reported Predators on Property",
-       title = "Predator Sightings in Small-scale Farms in the Araucania Region of Chile")
+       # wrapping title
+       title = str_wrap("Predator Sightings in Small-scale Farms in the Araucania Region of Chile",
+                        #controlling where line break happens
+                        width = 50)) +
+  #customizing colors to match website
+  theme(plot.background = element_rect(fill = khaki3),
+        panel.background = element_rect(fill = khaki),
+        axis.title = element_text(family = "serif", # axis title serif
+                                  color = darkbrown), # axis title darkbrown
+        axis.text = element_text(family = "serif", # axis font serif
+                                  color = darkbrown), # axis text color brown
+        axis.line = element_line(color = darkbrown), # axis line brown
+        plot.title = element_text(hjust = 0.5, # center title
+                                  family = "serif", # serif font
+                                  color = darkbrown, # changing color
+                                  size = 20), # bigger title
+        legend.position = "none") # getting rid of legend
 ```
 
 
