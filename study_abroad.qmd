@@ -65,18 +65,23 @@ site_map
 
 ---
 
-
-::: {.columns}
-
-::: {.column width="50%"}
 # Social-Ecological Sustainability (SES) in Chile
 ## Villarrica, Chile | Fall 2024, 4 mos
 
 As part of the Fall 2024 UCEAP Social-Ecological Sustainability Study Abroad Program, I researched alongside 6 other groupmembers to complete a preliminary research project on human-wildlife coexistence in Chile. The project was immensely eye-opening as we were able to learn from local farmers on how they view and coexist with predators from a local private protected area. The project used many methods including map-making, interviews and sorting categories, each of which yielded interesting results on the predators in the area and how farmers viewed them.
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+![](IMG_3611.jpeg){style="width: 350px; height: 350px; object-fit: cover;"}
+
 :::
 
 ::: {.column width="50%"}
-![](IMG_3611.jpeg)
+
+![](IMG_4199.jpeg){style="width: 350px; height: 350px; object-fit: cover;"}
+
 :::
 
 
@@ -85,18 +90,24 @@ As part of the Fall 2024 UCEAP Social-Ecological Sustainability Study Abroad Pro
 
 Our group presented our research on human wildlife coexistence. Methods included a farm tour, pile sort and interview, while results included maps and analysis. 
 
-![](IMG_4199.jpeg)
 
-::: {.column width="50%"}
+
+
 # Food, History, and Culture in Paris
 ## Paris, France | Fall 2022, 4 mos
 
+::: {.column width="60%"}
+
 Fall of 2022 I studied abroad in Paris, France through the UCEAP Food, History, and Culture in Paris program. This program allowed me to advance my French skills, both speaking and on paper, and also become familiar with all that French culture has to offer. I enjoyed housing with a local French artist who helped me with my French and also had beautiful taste.
+
 :::
 
-::: {.column width="50%"}
-![](IMG_5606.jpeg){.square-img}
+::: {.column width="40%"}
+
+![](IMG_5606.jpeg){style="width: 350px; height: 350px; object-fit: cover;"}
+
 :::
+
 
 
 # Study Abroad in the French Riviera
