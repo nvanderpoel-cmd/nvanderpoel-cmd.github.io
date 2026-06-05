@@ -46,7 +46,11 @@ body {
 
 
 a {
-  color: $dark_olive;
+  color: $darkbrown;
+}
+
+a.about-link {
+  color: $darkbrown !important;
 }
 
 .btn {
