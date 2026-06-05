@@ -10,7 +10,7 @@ about:
       href: https://www.linkedin.com/in/nicolette-van-der-poel-72701036a/ 
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/nvanderpoel-cmd
 ---
 
 As a recent UCSB graduate from a double major in Environmental Studies and Global Studies, I have spent a great deal of my education focused on both human and environmental interests. I am interested in blending the two so that nature and humans can co-exist. GIS, Statistics, and Environmentally Protected Areas give unique opportunities to explore this intersection whether through sustainable development, natural disaster mitigation, planning for sea level rise, or collaboratively managing environmentally protected areas.

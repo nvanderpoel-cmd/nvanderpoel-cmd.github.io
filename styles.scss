@@ -1,4 +1,9 @@
 /*-- scss:rules --*/
+$darkbrown: #5A3E2B;
+
+:root {
+  --darkbrown: #{$darkbrown};
+}
 
 /*-- scss:defaults --*/
 $primary: #8B864E;
@@ -37,20 +42,30 @@ h1, h2, h3 {
   color: $darkbrown;
 }
 
-
+// body text
 body {
   color: $darkbrown;
   background-color: $khaki;
   font-family: "Times New Roman", Times, serif;
 }
 
+// search button icon
+.navbar .aa-SubmitIcon {
+  color: $khaki !important;
+}
 
 a {
   color: $darkbrown;
 }
 
+// linkedin and github links on index.qmd page
 a.about-link {
   color: $darkbrown !important;
+}
+
+// color when you hover over a link
+a:hover {
+  color: #3A520C !important;
 }
 
 .btn {
@@ -59,10 +74,47 @@ a.about-link {
   border-color: $darkbrown;
 }
 
+// banner titles
 div.quarto-title-banner h1{
   color: #F0E68C;
 }
 
+// subtitles and headlines in banners
 div.quarto-title-banner.page-columns.page-full {
   color: #F0E68C ;
+}
+
+// hamburger icon
+.navbar-toggler-icon {
+  background-image: none !important;  /* remove default icon */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-toggler-icon::before {
+  content: "☰";  /* hamburger symbol */
+  color: #F0E68C;  /* khaki */
+  font-size: 1.5em;
+}
+
+// getting rid  of square outline over hamburger
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+// horizontal lines
+hr {
+  border: none;
+  border-top: 1px solid var(--darkbrown) !important;
+}
+
+$darkbrown: #5A3E2B;
+
+hr {
+  border: none;                 // removes default styling
+  border-top: 1px solid $darkbrown;
 }
