@@ -20,7 +20,6 @@ website:
             href: study_abroad.qmd
           - text: Rowing
             href: rowing.qmd
-      - text: Events
 
 format:
   html:
