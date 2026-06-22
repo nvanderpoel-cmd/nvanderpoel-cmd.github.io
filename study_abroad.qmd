@@ -16,7 +16,7 @@ library(leaflet.extras)
 library(readxl)
 
 #reading in coordinates
-travel <- read_xlsx("Study Abroad Locations.xlsx")
+travel <- read_xlsx("study_abroad.xlsx")
 ```
 
 ```{r}
@@ -41,14 +41,15 @@ site_map <- leaflet() %>%
   # add mini map ----
   addMiniMap(toggleDisplay = TRUE, minimized = TRUE) %>% 
   
-  # set view over Santa Barbara Channel ----
+  # set view over Atlantic ocean ----
   setView(lng = -35.15730782867788, lat = 7.956263387370654, zoom = 1.5) %>% 
   
-  # add MPA markers ----
+  # add markers ----
   addAwesomeMarkers(data = travel, group = "Program",
              icon = gen_icon,
              lng = ~lon, lat = ~lat,
              popup = paste("Program:", travel$Program, "<br>",
+                           "Location:", travel$location, "<br>",
                            "Coordinates (lat/long):", travel$lat, ",", travel$lon)) %>%
 
   # add layers control (toggle base map tiles & markers based on group IDs) ----
